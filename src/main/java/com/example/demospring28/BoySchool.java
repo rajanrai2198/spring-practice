@@ -11,9 +11,9 @@ public class BoySchool implements School {
 	@Qualifier("boy")
 	private Student student;
 	
-	public BoySchool(Student student) {
-		this.student = student;
-	}
+//	public BoySchool(Student student) {
+//		this.student = student;
+//	}
 
 	@Override
 	public String schoolName() {

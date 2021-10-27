@@ -10,7 +10,7 @@ public class DemoSpring28Application {
 	
 	public static void main(String[] args) {
 		ApplicationContext applicationContext = SpringApplication.run(DemoSpring28Application.class, args);
-		School school = applicationContext.getBean(BoySchool.class);
+		School school = applicationContext.getBean(GirlSchool.class);
 		System.out.println(school.schoolName());
 	}
 
